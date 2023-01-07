@@ -11,10 +11,15 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
+  
+
 }
 
 .banner {
-    padding: 280px 400px;
+   padding-top: 10%;
+   padding-left: 50%;
+   padding-right: 12%;
+   padding-bottom: 15%;
 
 }
 
