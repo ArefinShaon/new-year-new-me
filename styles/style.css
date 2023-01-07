@@ -1,33 +1,35 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans';
 
 }
+
 /* banner styles */
-header{
+header {
     height: 100%;
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
-   
-    
-    
 }
+
 .banner {
     padding: 280px 400px;
-    
+
 }
+
 .banner .banner-title {
     font-size: 3.5em;
     font-weight: 700;
-   
+
 }
+
 .banner .banner-description {
     margin-top: 20px;
     font-size: 20px;
     font-weight: 400px;
 }
+
 .btn-primary {
     padding: 18px 18px;
     background-color: rgb(185, 63, 63);
@@ -38,26 +40,198 @@ header{
     margin-top: 30px;
     font-weight: 700;
 }
+
 /* failure part style */
-.failure{
+.failure {
     display: flex;
     gap: 50px;
-   margin-top: 120px;
+    margin-top: 120px;
     margin-left: 300px;
 }
-.failure-previous{
+
+.failure-previous {
     margin-top: 400px;
     margin-right: 300px;
 }
-.failure-header{
+
+.failure-header {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
     margin-bottom: 24px;
 }
-    
 
-.failure-text{
+
+.failure-text {
     color: #444343;
     margin-bottom: 16px;
+}
+
+/* achivement styles */
+.achivement-content {
+    display: flex;
+    gap: 24px;
+}
+
+.achivement .title {
+    font-size: 25px;
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 120px;
+}
+
+.achivement .sub-title {
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.achivement .description {
+    color: #757575;
+
+
+}
+
+.achivement-item {
+
+    margin-bottom: 30px;
+    margin: 0 180px;
+    text-align: center;
+}
+
+.achivement-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #474747;
+    margin-top: 200px;
+}
+
+.section-title {
+    margin-top: 180px;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* my skill plan style */
+.my-plan {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin: 100px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 86px;
+
+    justify-content: center;
+}
+
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill-description {
+    color: #757575;
+    text-align: center;
+}
+
+.skills {
+    padding: 0 40px;
+    padding-bottom: 30px;
+}
+    
+
+/* last section */
+.mindset{
+/* background:  linear-gradient(to left, rgba(245, 252, 246, 0.52), rgba(30, 117, 19, 0.73)),
+url('../images/watch.png');; */
+background-image: url(../images/watch.png),url(../images/gradient2.png);
+background-blend-mode: overlay;
+
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-bottom: 30px;
+    margin-top: 130px;
+}
+.last-section{
+    
+        font-weight: 700;
+        font-size: 40px;
+        padding: 0 50px;
+        width: 450px;
+        color: #FFFFFF;
+        
+}
+.btn-secondary{
+    padding: 18px 18px;
+    background-color: whitesmoke;
+    color: orange;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 700;
+    margin-left: 50px;
+    
+}
+/* the future section style */
+.future-container{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 40px 300px;
+}
+.future-section{
+    background: #151414;
+    margin-top: 130px;
+}
+.future-header{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+margin-bottom: 18px;
+}
+.future-text{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+#email{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+#phone{
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+ul{
+    display: flex;
+    gap: 18px; 
+}
+ul li{
+    list-style: none;
+}
+.subscribe{
+    font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+margin-top: 25px;
+margin-bottom: 32px;
+margin-left: 50px;
+}
+.future-section input{
+    border: solid;
+    border-radius: 5px;
+    width: 100%;
+    padding: 30px 30px;
+    background: #151414;
 }
